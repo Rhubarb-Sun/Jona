@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>旧浪微博 - 随时随地回顾往事</title>
+    <link rel="icon" href="https://weibo.com/favicon.ico" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./font/iconfont.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <video
+        loop="loop"
+        autoplay="autoplay"
+        muted="muted"
+        src="https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4"
+        poster="https://a.sinaimg.cn/mintra/pic/2112130400/18weibo_login.png"
+      >
+        抱歉，您的浏览器不支持内嵌视频
+      </video>
+      <!-- search bar on top -->
+      <div class="header-center">
+        <div class="header-center-logo">
+          <img src="./images/logo.svg" alt="sinaimg" />
+        </div>
+        <div class="header-center-input">
+          <div class="header-center-input-icon">
+            <span class="iconfont icon-search1"></span>
+          </div>
+          <input
+            type="text"
+            placeholder="小黑最棒啦！"
+            class="header-center-input-form"
+          />
+          <div class="header-center-input-search">搜索</div>
+          <div class="header-center-input-search-logo">
+            <img src="./images/search-log.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nav bar -->
+    <div id="nav">
+      <div class="nav-center">
+        <div class="nav-center-logo">
+          <img src="./images/logo.jpg" alt="weibologo" />
+        </div>
+        <div class="nav-center-search">
+          <div class="iconfont icon-search1 active"></div>
+          <input type="text" placeholder="搜索微博" />
+          <div class="nav-center-search-radius"></div>
+          <div class="search-history">暂无搜索历史</div>
+        </div>
+        <div class="nav-center-five">
+          <div class="iconfont icon-shouye"></div>
+          <div class="iconfont icon-shipin"></div>
+          <div class="iconfont icon-huo"></div>
+          <div class="iconfont icon-duanxin"></div>
+          <div class="iconfont icon-geren"></div>
+        </div>
+        <div class="nav-center-functions">
+          <div class="nav-center-login">登录</div>
+          <div class="nav-center-register">注册</div>
+          <div class="nav-center-mode iconfont icon-weibiaoti-"></div>
+          <div class="nav-center-publish iconfont icon-liuyan"></div>
+        </div>
+        <div class="nav-center-divider">
+          <img src="./images/DividerTall.png" alt="" />
+        </div>
+        <div class="nav-center-accessibility">无障碍</div>
+      </div>
+    </div>
+    <!-- main part -->
+    <div id="main">
+      <div class="main-center">
+        <div class="main-left">
+          <div>
+            <span class="iconfont icon-huo"></span>
+            热门微博
+          </div>
+          <div>
+            <span class="iconfont icon-shizhong"></span>
+            热门榜单
+          </div>
+          <div>
+            <span class="iconfont icon-huatifuhao"></span>
+            话题榜
+          </div>
+          <div>
+            <span class="iconfont icon-search"></span>
+            热搜榜
+          </div>
+        </div>
+        <!-- main part of page -->
+        <div class="main">
+          <div class="main-top">
+            <div>热门</div>
+            <div>同城</div>
+            <div>榜单</div>
+            <div>科技</div>
+            <div class="iconfont icon-et-more1"></div>
+          </div>
+          <div class="main-scroller-container">
+            <div class="scroller-item">
+              <div class="feed-avatar">
+                <img src="./images/avatar.jpeg" alt="avatar-img" />
+                <span class="iconfont icon-renzheng"></span>
+              </div>
+              <div class="feed-head">
+                <div class="head-nick">
+                  <div class="head-name">最爱你的主人</div>
+                  <span class="iconfont icon-huangguan"></span>
+                  <span class="iconfont icon-hongqi"></span>
+                </div>
+                <div class="head-info">
+                  <div class="head-info-time">爱你的每一天</div>
+                  <div class="head-info-profile">知名博主</div>
+                </div>
+              </div>
+              <div class="feed-follow">
+                <span class="iconfont icon-jiahao1"></span>
+                关注
+              </div>
+              <div class="blog">
+                <div>
+                  小黑怎么这么可爱呢？<br />
+                  这是个问题。<br />
+                  就像小黑猫小黄猫一样可爱。
+                </div>
+                <img src="./images/4.jpeg" alt="" />
+                <img src="./images/2.jpeg" alt="" />
+                <img src="./images/3.jpeg" alt="" />
+                <img src="./images/1.jpeg" alt="" />
+              </div>
+              <div class="toolbar">
+                <div class="share">
+                  <span class="icon iconfont icon-fenxiang_2"></span>
+                  1996
+                </div>
+                <div class="comment">
+                  <span class="icon iconfont icon-pinglun"></span>
+                  0305
+                </div>
+                <div class="like">
+                  <span class="icon iconfont icon-dianzan"></span>
+                  520
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-right">
+          <div class="main-right-top">
+            <img src="./images/text.png" alt="" />
+            <div class="login">立即登录</div>
+            <div class="register">
+              还没有微博？
+              <a href="">立即注册！</a>
+            </div>
+          </div>
+          <div class="main-right-trends">
+            <div class="trends-head">
+              <div class="trends-head-title">微博热搜</div>
+              <div class="trends-head-refresh">
+                <div class="iconfont icon-shuaxin">点击刷新</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
