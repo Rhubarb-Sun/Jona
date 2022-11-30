@@ -125,6 +125,21 @@ $.ajax({
     // console.log(res.article);
     loadArticles();
 
+    // listen to scroll event
+    window.addEventListener('scroll', function() {
+      var timer;
+      var startTime = new Date();
+      return function() {
+        var curTime = new Date();
+        if (curTime - startTime >= 2000) {
+          timer = setTimeout(function() {
+            loadArticles();
+          }, 500);
+          startTime = curTime;
+        }
+      }
+     }()); // self execution
+
     function loadArticles() {
       let articleArr = res.article;
       let fiveArr = articleArr.splice(0, 5); // cut from beginning.
